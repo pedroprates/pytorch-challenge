@@ -7,6 +7,10 @@ of Oxford](http://www.robots.ox.ac.uk/~vgg/data/flowers/), which contains over 6
 challenge was developed using [PyTorch](https://www.pytorch.org), Facebook's Deep Learning Framework, and this was my
 first project using this framework.
 
+<p align="center">
+    <img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be1bb0e_image-04549/image-04549.jpg" height="350" title="Flower Classifier">
+</p>
+
 ## Approach
 
 First things first, before choosing which model to go for it I decided to take a look at the dataset and how I could
