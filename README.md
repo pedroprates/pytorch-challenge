@@ -4,8 +4,8 @@ This project is due to the [PyTorch Scholarship Challenge](https://sites.google.
 made by Facebook and Udacity. After 2 months of classes, the scholars should submit a final project. This project was
 based in creating a classifier to identify 102 different species of Flowers based on the dataset from the [University
 of Oxford](http://www.robots.ox.ac.uk/~vgg/data/flowers/), which contains over 6,000 images. My approach to the 
-challenge was developed using [PyTorch](https://www.pytorch.org), Facebook's Deep Learning Framework, and this was my
-first project using this framework.
+challenge was developed using [PyTorch](https://www.pytorch.org), Facebook's Deep Learning Framework (actually this was
+my first project using it).
 
 <p align="center">
     <img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be1bb0e_image-04549/image-04549.jpg" height="350" title="Flower Classifier">
