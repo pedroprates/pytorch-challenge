@@ -3,3 +3,6 @@
 data/
 best-model/
 walkthrough/
+.ipynb_checkpoints/
+.idea
+walkthrough/
