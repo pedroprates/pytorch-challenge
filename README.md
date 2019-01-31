@@ -33,7 +33,7 @@ environment, which gives us unlimited GPU training! Our kernels must not be runn
 it's enough for this task. Both the notebooks on this repository (`prediction.ipynb` and `flower-classifier.ipynb`) are
 ready to run on Colab (especially now that Colab has native support of PyTorch 1.0.0). After 100 epochs of training with
 [Adadelta](https://arxiv.org/abs/1212.5701) optimizer function (with starting learning rate of 0.1) the model got 
-$\mathbf{93.63\%}$ accuracy on the validation set. 
+**93.63%** accuracy on the validation set. 
 
 This was achieved by only fine tuning the classifier of the model, the *feature extractor* (a.k.a. the *conv layers*)
 remained the same as the one trained to perform the **ImageNet task**. What if the *feature extractor* was a little bit
@@ -49,7 +49,7 @@ we need to keep our learning rate really small to avoid huge changes.
 time, but not unlimited GPU memory, so since we are *backpropagating* through a lot more layers we need to free a little
 bit of memory, so it's recommended that the *batch size* on this second part should be smaller.
 
-With this and a little more epochs, our model achieved $\mathbf{98.92\%}$! Pretty good accuracy on more than 102 
+With this and a little more epochs, our model achieved **98.92%**! Pretty good accuracy on more than 102 
 different classes. All the code of how I implemented this is on the `flower-classifier.ipynb` notebook, and you can
 download the Pytorch checkpoint model from [this link](https://drive.google.com/uc?export=download&id=1UJW1XcXTjgrFulKDoLnSOOy9O3LtdgEr)
 and use the `resnet()` and `load_pretrained_model()` functions on the `prediction.ipynb` to run this model on your computer.
